@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # copy dotfiles
 git clone https://github.com/Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
 chmod +x ${HOME}/dotfiles/bootstrap.sh && ${HOME}/bootstrap.sh
@@ -6,7 +7,7 @@ cd ${HOME}/dotfiles
 git remote rm origin
 git remote add origin git@github.com:Xixiao007/dotfiles-ubuntu.git
 
-# 1080 driver step 2
+# GPU 1080 driver step 2
 # stop the GUI
 service lightdm stop 
 # stop the X-server if it was already running, or nvidia will complain about it
