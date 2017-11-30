@@ -2,7 +2,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bg.jpg .gitconfig .gitignore .tmux.conf .Xdefaults .xinitrc .config/i3 .config/i3status .config/fish .config/systemd"        # list of files/folders to symlink in homedir
+files="bg.jpg .gitconfig .gitignore .tmux.conf .Xdefaults .xinitrc .config/i3 .config/i3status .config/fish"        # list of files/folders to symlink in homedir
 
 ##########
 
