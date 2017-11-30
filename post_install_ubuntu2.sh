@@ -1,6 +1,10 @@
+#!/bin/bash
 # copy dotfiles
-git clone git@github.com:Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
+git clone https://github.com/Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
 chmod +x ${HOME}/dotfiles/bootstrap.sh && ${HOME}/bootstrap.sh
+cd ${HOME}/dotfiles
+git remote rm origin
+git remote add origin git@github.com:Xixiao007/dotfiles-ubuntu.git
 
 # 1080 driver step 2
 # stop the GUI
