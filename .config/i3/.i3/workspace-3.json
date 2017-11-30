@@ -1,0 +1,22 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1052,
+       "width": 1914,
+       "x": 3,
+       "y": 3
+    },
+    "name": "console",
+    "percent": 1,
+    "swallows": [
+       {
+       "class": "*terminal$",
+       "instance": "*terminal$"
+       }
+    ],
+    "type": "con"
+}
+

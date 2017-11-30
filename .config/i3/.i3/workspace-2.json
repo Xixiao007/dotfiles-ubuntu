@@ -1,0 +1,21 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+        "height": 1079,
+        "width": 1919,
+        "x": 0,
+        "y": 0
+    },
+    "name": "edit",
+    "percent": 1,
+    "swallows": [
+        {
+            "class": "^Code$"
+        }
+    ],
+    "type": "con"
+}
+
