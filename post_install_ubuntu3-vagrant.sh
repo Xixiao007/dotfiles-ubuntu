@@ -8,3 +8,6 @@ sudo apt-get upgrade -y
 sudo apt-get install virtualbox -y
 sudo apt-get install virtualbox-dkms -y
 sudo apt-get install vagrant -y
+
+
+# machine learning stuff
