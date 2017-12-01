@@ -6,11 +6,18 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # copy dotfiles
- git clone https://github.com/Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
- chmod +x ${HOME}/dotfiles/bootstrap.sh && ${HOME}/bootstrap.sh
- cd ${HOME}/dotfiles
- git remote rm origin
- git remote add origin git@github.com:Xixiao007/dotfiles-ubuntu.git
+git clone https://github.com/Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
+chmod +x ${HOME}/dotfiles/bootstrap.sh && ${HOME}/bootstrap.sh
+cd ${HOME}/dotfiles
+git remote rm origin
+git remote add origin git@github.com:Xixiao007/dotfiles-ubuntu.git
+
+#iosev font
+wget -O font.zip https://github.com/be5invis/Iosevka/releases/download/v1.13.3/04-iosevka-cc-1.13.3.zip
+unzip font.zip
+mkdir ~/.fonts
+cp -r ttf/* ~/.fonts
+fc-cache -f -v
 
 # GPU 1080 driver
 # echo -e 'blacklist amd76x_edac\nblacklist vga16gb\nblacklist nouveau\nblacklist rivafb\nblacklist nvidiafb\nblacklist rivatv' | sudo tee --append /etc/modprobe.d/blacklist.conf
