@@ -52,8 +52,9 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PATH "$PYENV_ROOT/bin" $PATH
 
 # conda
-# set -x PATH "$HOME/anaconda3/bin" $PATH
-# source (conda info --root)/etc/fish/conf.d/conda.fish
+set -x PATH "$HOME/anaconda3/bin" $PATH
+source (conda info --root)/etc/fish/conf.d/conda.fish
+activate py27
 
 # pyenv rehash
 # . (pyenv init - | psub)

@@ -18,16 +18,16 @@ order += "ethernet eth0"
 # order += "battery 0"
 order += "tztime local"
 
-wireless wlp0s26u1u3 {
-format_up = "W: (%quality at %essid) %ip"
-format_down = "W: down"
-}
-
-# ethernet enp3s0 {
-# if you use %speed, i3status requires root privileges
-# format_up = "E: %ip (%speed)"
-# format_down = "E: down"
+# wireless wlp0s26u1u3 {
+# format_up = "W: (%quality at %essid) %ip"
+# format_down = "W: down"
 # }
+
+ ethernet enp8s0 {
+# if you use %speed, i3status requires root privileges
+ format_up = "E: %ip (%speed)"
+ format_down = "E: down"
+ }
 
 load {
 #	format = " Δ: %1min "
