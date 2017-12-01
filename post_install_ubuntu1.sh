@@ -43,9 +43,3 @@ SSH_COMMENT="home_ubuntu"
 # wget -O vsc.deb https://go.microsoft.com/fwlink/?LinkID=760868
 # sudo dpkg -i ./vsc.deb
 # sudo apt-get install -f
-
-# nvidia 1080 driver
-echo -e 'blacklist amd76x_edac\nblacklist vga16gb\nblacklist nouveau\nblacklist rivafb\nblacklist nvidiafb\nblacklist rivatv' | sudo tee --append /etc/modprobe.d/blacklist.conf
-sudo apt-get purge nvidia-*
-sudo apt autoremove
-sudo shutdown -r now
