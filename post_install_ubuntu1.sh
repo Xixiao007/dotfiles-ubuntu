@@ -10,6 +10,9 @@ sudo apt-get upgrade -y
 mkdir ~/.ssh
 ssh-keygen -t rsa -b 4096 -C $SSH_COMMENT -N "" -f ${HOME}/.ssh/id_rsa
 
+# small toolkits
+sudo apt-get install tree -y
+
 # git
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo apt-get update
