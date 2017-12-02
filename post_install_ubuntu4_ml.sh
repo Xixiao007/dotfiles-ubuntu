@@ -123,6 +123,9 @@ conda install -y opencv tqdm bcolz
 conda install -y feather-format -c conda-forge
 pip install isoweek pandas_summary graphviz sklearn-pandas
 
+# theano
+conda install -c mila-udem -c mila-udem/label/pre theano pygpu -y
+
 # configure jupyter
 jupyter notebook --generate-config
 

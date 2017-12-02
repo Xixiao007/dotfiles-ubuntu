@@ -5,6 +5,9 @@ cd ~/Download
 sudo apt-get update
 sudo apt-get upgrade -y
 
+# google pinyin
+sudo apt-get install fcitx-googlepinyin
+
 # copy dotfiles
 git clone https://github.com/Xixiao007/dotfiles-ubuntu.git ${HOME}/dotfiles
 chmod +x ${HOME}/dotfiles/bootstrap.sh && ${HOME}/bootstrap.sh
