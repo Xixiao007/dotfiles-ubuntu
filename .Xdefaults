@@ -27,12 +27,10 @@ URxvt.internalBorder:       3
 URxvt.lineSpace:            0
 
 ! Fonts
-URxvt.allow_bold:           false
-/* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
-! URxvt*font: xft:Monospace:pixelsize=18
-! URxvt*boldFont: xft:Monospace:pixelsize=18
-URxvt.font:xft:Iosevka:size=14:style=Regular:antialias=true,xft:Iosevka:size=14:style=Regular:antialias=true
-URxvt.boldfont:xft:Iosevka:size=14:style=Bold:antialias=true,xft:Iosevka:size=14:style=Bold:antialias=true
+URxvt.font:           xft:Consolas:pixelsize=14
+URxvt.boldFont:       xft:Consolas:bold:pixelsize=14
+URxvt.italicFont:     xft:Consolas:italic:pixelsize=14
+URxvt.boldItalicFont: xft:Consolas:bold:italic:pixelsize=14
 
 ! Fix font space
 URxvt*letterSpace: -1
