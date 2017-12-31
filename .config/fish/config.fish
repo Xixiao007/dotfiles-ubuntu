@@ -52,10 +52,10 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PATH "$PYENV_ROOT/bin" $PATH
 
 # conda
-set -x PATH "$HOME/anaconda3/bin" $PATH
-source (conda info --root)/etc/fish/conf.d/conda.fish
-activate py27
-set -x MKL_THREADING_LAYER GNU
+# set -x PATH "$HOME/anaconda3/bin" $PATH
+# source (conda info --root)/etc/fish/conf.d/conda.fish
+# activate py27
+# set -x MKL_THREADING_LAYER GNU
 
 # pyenv rehash
 # . (pyenv init - | psub)
