@@ -154,22 +154,25 @@ alias ic="ionic cordova"
 alias dub="cd ~/project/dublearn"
 alias up="cd ~/project/uploadvideo"
 
-set fish_color_normal dedede
-set fish_color_command 7aa6da
-set fish_color_quote e78c45
-set fish_color_redirection c397d8
-set fish_color_end c397d8
-set fish_color_error d54e53
-set fish_color_param ffffff
-set fish_color_comment 999999
-set fish_color_match 70c0b1
-set fish_color_search_match c397d8
-set fish_color_operator 70c0b1
-set fish_color_escape 70c0b1
-set fish_color_cwd b9ca4a
+#set fish_color_normal dedede
+#set fish_color_command 7aa6da
+#set fish_color_quote e78c45
+#set fish_color_redirection c397d8
+#set fish_color_end c397d8
+#set fish_color_error d54e53
+#set fish_color_param ffffff
+#set fish_color_comment 999999
+#set fish_color_match 70c0b1
+#set fish_color_search_match c397d8
+#set fish_color_operator 70c0b1
+#set fish_color_escape 70c0b1
+#set fish_color_cwd b9ca4a
 
 # set PATH $HOME/.rbenv/bin $PATH
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-xmodmap /home/finxxi/.Xmodmap
+# xmodmap /home/vagrant/.Xmodmap_vagrant
+
+killall VBoxClient
+VBoxClient-all
