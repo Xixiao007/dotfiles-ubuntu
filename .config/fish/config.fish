@@ -126,7 +126,7 @@ alias p="cd ~/project"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
-alias v="vim"
+alias v="vagrant"
 alias e="exit"
 
 ################################
