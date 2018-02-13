@@ -122,7 +122,7 @@ alias l='ls -CF'
 ################################
 alias D="cd ~/Downloads"
 alias d="cd ~/Dropbox"
-alias p="cd ~/project"
+alias p="cd ~/projects"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
@@ -152,6 +152,7 @@ alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
 alias dub="cd ~/project/dublearn"
+alias vm="cd ~/VMs"
 alias up="cd ~/project/uploadvideo"
 
 set fish_color_normal dedede
